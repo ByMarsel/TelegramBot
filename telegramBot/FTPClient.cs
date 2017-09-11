@@ -13,13 +13,13 @@ namespace telegramBot
     {
         //поля
         //поле для хранения имени фтп-сервера
-        private string _Host = "ftp-edi.kontur.ru";
+        private string _Host = "";
 
         //поле для хранения логина
-        private string _UserName = "4607195499990";
+        private string _UserName = "";
 
         //поле для хранения пароля
-        private string _Password = "zP3H3fE9X452o6s";
+        private string _Password = "";
 
         //объект для запроса данных
         FtpWebRequest ftpRequest;
