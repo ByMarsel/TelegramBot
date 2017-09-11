@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<eDIMessage id="4eeff389b93c46b483bd52668140f778">
+  <interchangeHeader>
+    <sender>2000000000787</sender>
+    <recipient>4607806939990</recipient>
+    <documentType>ORDERS</documentType>
+    <creationDateTime>2017-06-23T09:48:34</creationDateTime>
+    <data1C version="4.03.019.02 +об,рш" name="УТ_10_3"/>
+  </interchangeHeader>
+  <order number="УТТДК000003" date="2017-06-26">
+    <seller>
+      <gln>4607806939990</gln>
+      <additionalInfo/>
+    </seller>
+    <buyer>
+      <gln>2000000000787</gln>
+      <additionalInfo/>
+    </buyer>
+    <deliveryInfo>
+      <shipTo>
+        <gln>2000000000787</gln>
+        <additionalInfo/>
+      </shipTo>
+    </deliveryInfo>
+    <comment/>
+    <lineItems>
+      <currencyISOCode>RUB</currencyISOCode>
+      <lineItem>
+        <gtin>2000000000091</gtin>
+        <description>BOSCH</description>
+        <internalBuyerCode>00000000083</internalBuyerCode>
+        <requestedQuantity unitOfMeasure="PCE">12</requestedQuantity>
+        <netPrice>104434.75</netPrice>
+        <netAmount>1253216.95</netAmount>
+        <netPriceWithVAT>123233</netPriceWithVAT>
+        <amount>1478796</amount>
+        <vATRate>18</vATRate>
+        <vATAmount>225579.05</vATAmount>
+      </lineItem>
+      <lineItem>
+        <gtin>2000000000107</gtin>
+        <description>МИНСК-АТЛАНТ 126</description>
+        <internalBuyerCode>00000000093</internalBuyerCode>
+        <requestedQuantity unitOfMeasure="PCE">12</requestedQuantity>
+        <netPrice>19772.88</netPrice>
+        <netAmount>237274.58</netAmount>
+        <netPriceWithVAT>23332</netPriceWithVAT>
+        <amount>279984</amount>
+        <vATRate>18</vATRate>
+        <vATAmount>42709.42</vATAmount>
+      </lineItem>
+      <totalAmount>1758780</totalAmount>
+      <totalSumExcludingTaxes>1490491.53</totalSumExcludingTaxes>
+      <totalVATAmount>268288.47</totalVATAmount>
+    </lineItems>
+  </order>
+</eDIMessage>

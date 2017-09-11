@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<eDIMessage id="e0e5d847-221d-42bd-821d-03dae973fda9">
+  <interchangeHeader>
+    <sender>2000000000787</sender>
+    <recipient>2000000009995</recipient>
+    <documentType>RECADV</documentType>
+    <isTest>1</isTest>
+    <creationDateTime>2017-06-26T06:08:44.939Z</creationDateTime>
+    <creationDateTimeBySender>2017-06-26T11:08:42.000Z</creationDateTimeBySender>
+  </interchangeHeader>
+  <receivingAdvice number="УТТДК000002" date="2017-06-26">
+    <originOrder number="УТТДК000003" date="2017-06-26" />
+    <despatchIdentificator number="778" date="2017-06-26" />
+    <seller>
+      <gln>2000000009995</gln>
+    </seller>
+    <buyer>
+      <gln>2000000000787</gln>
+    </buyer>
+    <deliveryInfo>
+      <shipFrom>
+        <gln>2000000009995</gln>
+      </shipFrom>
+      <shipTo>
+        <gln>2000000000787</gln>
+      </shipTo>
+    </deliveryInfo>
+    <lineItems>
+      <currencyISOCode>RUB</currencyISOCode>
+      <lineItem>
+        <gtin>2000000000091</gtin>
+        <internalBuyerCode>00000000083</internalBuyerCode>
+        <description>BOSCH</description>
+        <orderedQuantity unitOfMeasure="PCE">12.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">12.000</despatchedQuantity>
+        <acceptedQuantity unitOfMeasure="PCE">10.000</acceptedQuantity>
+        <netPrice>104434.7500</netPrice>
+        <netPriceWithVAT>123233.0000</netPriceWithVAT>
+        <netAmount>1044347.4600</netAmount>
+        <vATRate>18</vATRate>
+        <vATAmount>187982.5400</vATAmount>
+        <amount>1232330.0000</amount>
+      </lineItem>
+      <lineItem>
+        <gtin>2000000000107</gtin>
+        <internalBuyerCode>00000000093</internalBuyerCode>
+        <description>МИНСК-АТЛАНТ 126</description>
+        <orderedQuantity unitOfMeasure="PCE">12.000</orderedQuantity>
+        <despatchedQuantity unitOfMeasure="PCE">12.000</despatchedQuantity>
+        <acceptedQuantity unitOfMeasure="PCE">12.000</acceptedQuantity>
+        <netPrice>19772.8800</netPrice>
+        <netPriceWithVAT>23332.0000</netPriceWithVAT>
+        <netAmount>237274.5800</netAmount>
+        <vATRate>18</vATRate>
+        <vATAmount>42709.4200</vATAmount>
+        <amount>279984.0000</amount>
+      </lineItem>
+      <totalSumExcludingTaxes>1281622.04</totalSumExcludingTaxes>
+      <totalVATAmount>230691.96</totalVATAmount>
+      <totalAmount>1512314.00</totalAmount>
+    </lineItems>
+  </receivingAdvice>
+</eDIMessage>
